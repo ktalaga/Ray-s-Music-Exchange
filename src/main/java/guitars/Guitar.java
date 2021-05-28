@@ -12,7 +12,7 @@ public class Guitar implements IPlay, ISell {
     private int priceBought;
     private int priceSell;
 
-    public Guitar(GuitarType guitarType, int numberOfStrings, Material material, String colour, int priceBought, int priceSell) {
+    public Guitar(GuitarType guitarType, Material material, String colour, int priceBought, int priceSell) {
         this.guitarType = guitarType;
         this.numberOfStrings = 6;
         this.material = material;
