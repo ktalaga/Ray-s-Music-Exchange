@@ -22,4 +22,12 @@ public class ElectricGuitar extends Guitar {
     public Pickups getPickups() {
         return pickups;
     }
+
+    public void setElectricGuitarType(ElectricGuitarType electricGuitarType) {
+        this.electricGuitarType = electricGuitarType;
+    }
+
+    public void setPickups(Pickups pickups) {
+        this.pickups = pickups;
+    }
 }
