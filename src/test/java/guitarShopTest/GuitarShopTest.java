@@ -56,4 +56,12 @@ public class GuitarShopTest {
         stock.remove(electricGuitar_1);
         assertEquals(2, stock.size());
     }
+
+    @Test
+    public void canCalculateTotalPotentialProfit() {
+        stock.add(bassGuitar_1);
+        stock.add(electricGuitar_1);
+        stock.add(electricGuitar_2);
+        assertEquals(2900, guitarShop.calculateTotalPotentialProfit());
+    }
 }
